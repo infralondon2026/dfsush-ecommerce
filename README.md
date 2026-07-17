@@ -39,6 +39,20 @@ El catálogo (seed, datos demo e imágenes SVG) se genera desde una única fuent
 node scripts/generate-catalog.mjs   # regenera supabase/seed.sql, src/store/demoCatalog.ts y public/img/**
 ```
 
+### Imágenes
+
+Las imágenes viven **self-hosted** en `public/img/` (nunca hotlinkeadas):
+
+- **Fotos oficiales de producto** extraídas del sitio del Duty Free (activos de la empresa),
+  descargadas por `scripts/download-images.mjs`.
+- **Fotografía de stock** de Unsplash (licencia libre para uso comercial) para el resto de
+  productos, categorías, hero y CTA. El crédito de cada foto queda en `public/img/CREDITS.md`.
+- Si un producto no tiene foto (`<slug>.jpg`), el generador usa el **SVG de marca** como
+  fallback automático.
+
+> Para producción definitiva se recomienda reemplazar las fotos de stock por fotografía
+> propia de producto del inventario real (mismo nombre de archivo y listo).
+
 ## Puesta en producción
 
 ### 1. Supabase
