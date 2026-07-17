@@ -10,6 +10,7 @@ import { ProductCard } from '../components/ProductCard';
 import { Reveal } from '../components/Reveal';
 import { ProductGridSkeleton } from '../components/Skeleton';
 import { useI18n } from '../context/LangContext';
+import { asset } from '../lib/env';
 import { getStore } from '../store';
 import type { Category, Product } from '../types';
 import { BRANCHES } from '../types';
@@ -50,13 +51,11 @@ export function HomePage() {
   return (
     <>
       {/* ------------------------------ HERO ------------------------------ */}
-      <section className="hero">
-        <div className="hero__bg" aria-hidden="true">
-          <svg viewBox="0 0 1440 320" preserveAspectRatio="xMidYMax slice" className="hero__mountains">
-            <path d="M0 320 L180 140 L320 250 L520 60 L720 230 L900 110 L1100 260 L1290 150 L1440 240 L1440 320 Z" fill="rgba(255,255,255,.05)" />
-            <path d="M0 320 L240 200 L430 290 L640 150 L860 280 L1080 180 L1440 300 L1440 320 Z" fill="rgba(255,255,255,.08)" />
-          </svg>
-        </div>
+      <section
+        className="hero"
+        style={{ backgroundImage: `url(${asset('img/hero-ushuaia.jpg')})` }}
+      >
+        <div className="hero__overlay" aria-hidden="true" />
         <div className="container hero__content">
           <p className="hero__kicker">{tr.hero.kicker}</p>
           <h1 className="hero__title">{tr.hero.title}</h1>
@@ -176,6 +175,22 @@ export function HomePage() {
               </Reveal>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* ----------------------------- CTA -------------------------------- */}
+      <section
+        className="cta-strip"
+        style={{ backgroundImage: `url(${asset('img/hero-travel.jpg')})` }}
+      >
+        <div className="cta-strip__overlay" aria-hidden="true" />
+        <div className="container cta-strip__content">
+          <Reveal>
+            <p className="hero__kicker">{tr.cta.kicker}</p>
+            <h2 className="cta-strip__title">{tr.cta.title}</h2>
+            <p className="cta-strip__text">{tr.cta.text}</p>
+            <Link to="/catalogo" className="btn btn--accent btn--lg">{tr.cta.button}</Link>
+          </Reveal>
         </div>
       </section>
 

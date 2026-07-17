@@ -7,12 +7,26 @@
 // Uso: node scripts/generate-catalog.mjs
 // ============================================================
 
-import { mkdirSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { categories, products } from './catalog-data.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
+
+// Si hay foto real descargada (scripts/download-images.mjs) se usa esa;
+// si no, queda el SVG generado como fallback.
+function productImage(slug) {
+  return existsSync(resolve(root, `public/img/products/${slug}.jpg`))
+    ? `img/products/${slug}.jpg`
+    : `img/products/${slug}.svg`;
+}
+
+function categoryImage(slug) {
+  return existsSync(resolve(root, `public/img/categories/${slug}.jpg`))
+    ? `img/categories/${slug}.jpg`
+    : `img/categories/${slug}.svg`;
+}
 
 // ---------------------------------------------------------------
 // Iconos SVG (viewBox 0 0 100 100, silueta blanca)
@@ -118,7 +132,7 @@ function buildSeedSql() {
   for (const c of categories) {
     lines.push(
       `insert into public.categories (slug, name_es, name_pt, name_en, image, sort, active)`,
-      `values (${sqlStr(c.slug)}, ${sqlStr(c.nameEs)}, ${sqlStr(c.namePt)}, ${sqlStr(c.nameEn)}, ${sqlStr(`img/categories/${c.slug}.svg`)}, ${c.sort}, true)`,
+      `values (${sqlStr(c.slug)}, ${sqlStr(c.nameEs)}, ${sqlStr(c.namePt)}, ${sqlStr(c.nameEn)}, ${sqlStr(categoryImage(c.slug))}, ${c.sort}, true)`,
       `on conflict (slug) do update set name_es = excluded.name_es, name_pt = excluded.name_pt,`,
       `  name_en = excluded.name_en, image = excluded.image, sort = excluded.sort, active = true;`,
       '',
@@ -130,7 +144,7 @@ function buildSeedSql() {
       `insert into public.products (slug, category_id, brand, name, desc_es, desc_pt, desc_en, image, featured, active)`,
       `values (${sqlStr(p.slug)}, (select id from public.categories where slug = ${sqlStr(p.category)}),`,
       `  ${sqlStr(p.brand)}, ${sqlStr(p.name)}, ${sqlStr(p.descEs)}, ${sqlStr(p.descPt)}, ${sqlStr(p.descEn)},`,
-      `  ${sqlStr(`img/products/${p.slug}.svg`)}, ${p.featured}, true)`,
+      `  ${sqlStr(productImage(p.slug))}, ${p.featured}, true)`,
       `on conflict (slug) do update set category_id = excluded.category_id, brand = excluded.brand,`,
       `  name = excluded.name, desc_es = excluded.desc_es, desc_pt = excluded.desc_pt, desc_en = excluded.desc_en,`,
       `  image = excluded.image, featured = excluded.featured, active = true;`,
@@ -163,7 +177,7 @@ function buildDemoCatalog() {
     nameEs: c.nameEs,
     namePt: c.namePt,
     nameEn: c.nameEn,
-    image: `img/categories/${c.slug}.svg`,
+    image: categoryImage(c.slug),
     sort: c.sort,
   }));
   const prods = products.map((p) => ({
@@ -175,7 +189,7 @@ function buildDemoCatalog() {
     descEs: p.descEs,
     descPt: p.descPt,
     descEn: p.descEn,
-    image: `img/products/${p.slug}.svg`,
+    image: productImage(p.slug),
     featured: p.featured,
     active: true,
     variants: p.variants.map((v) => ({

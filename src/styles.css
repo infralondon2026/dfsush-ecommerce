@@ -110,6 +110,17 @@ button {
   letter-spacing: 0.03em;
 }
 
+.section > .container > .reveal:first-child .section__title::after,
+.section > .container > .section__title:first-child::after {
+  content: '';
+  display: block;
+  width: 56px;
+  height: 4px;
+  border-radius: 2px;
+  margin-top: 0.5rem;
+  background: linear-gradient(90deg, var(--amarillo), var(--azul));
+}
+
 .section__title--sm {
   font-size: clamp(1.2rem, 3vw, 1.5rem);
 }
@@ -247,7 +258,9 @@ button {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: var(--blanco);
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(14px) saturate(1.4);
+  -webkit-backdrop-filter: blur(14px) saturate(1.4);
   border-bottom: 1px solid var(--borde);
   box-shadow: 0 2px 12px rgba(14, 17, 34, 0.06);
 }
@@ -393,30 +406,32 @@ button {
 
 .hero {
   position: relative;
-  background:
-    radial-gradient(1200px 500px at 85% -10%, rgba(245, 211, 4, 0.16), transparent 60%),
-    linear-gradient(155deg, var(--navy) 0%, var(--navy-2) 45%, var(--azul-oscuro) 100%);
+  background-color: var(--navy);
+  background-size: cover;
+  background-position: center 65%;
   color: var(--blanco);
   overflow: hidden;
 }
 
-.hero__bg {
+.hero__overlay {
   position: absolute;
   inset: 0;
+  background:
+    radial-gradient(900px 420px at 82% -10%, rgba(245, 211, 4, 0.18), transparent 60%),
+    linear-gradient(100deg, rgba(10, 14, 30, 0.92) 0%, rgba(14, 17, 34, 0.72) 45%, rgba(14, 17, 34, 0.25) 100%);
   pointer-events: none;
-}
-
-.hero__mountains {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 42%;
 }
 
 .hero__content {
   position: relative;
-  padding: 4.5rem 0 5rem;
+  padding: 6rem 0 6.5rem;
   max-width: 760px;
+}
+
+@media (max-width: 700px) {
+  .hero__content {
+    padding: 4rem 0 4.5rem;
+  }
 }
 
 .hero__kicker {
@@ -498,6 +513,11 @@ button {
   width: 100%;
   aspect-ratio: 3 / 2;
   object-fit: cover;
+  transition: transform 0.35s ease;
+}
+
+.category-card:hover img {
+  transform: scale(1.06);
 }
 
 .category-card__name {
@@ -552,12 +572,19 @@ button {
 .product-card__media {
   position: relative;
   display: block;
+  overflow: hidden;
+  background: var(--blanco);
 }
 
 .product-card__media img {
   width: 100%;
   aspect-ratio: 1;
   object-fit: cover;
+  transition: transform 0.35s ease;
+}
+
+.product-card:hover .product-card__media img {
+  transform: scale(1.05);
 }
 
 .product-card__flag {
@@ -769,6 +796,43 @@ button {
   margin: 0;
   padding: 0 1.2rem 1.1rem;
   color: var(--texto-suave);
+}
+
+/* ------------------------------ cta ------------------------------- */
+
+.cta-strip {
+  position: relative;
+  background-color: var(--navy);
+  background-size: cover;
+  background-position: center;
+  color: var(--blanco);
+  overflow: hidden;
+}
+
+.cta-strip__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(100deg, rgba(10, 14, 30, 0.9) 10%, rgba(29, 98, 156, 0.55) 100%);
+  pointer-events: none;
+}
+
+.cta-strip__content {
+  position: relative;
+  padding: 4.5rem 0;
+  max-width: 640px;
+}
+
+.cta-strip__title {
+  font-family: var(--fuente-titulo);
+  font-size: clamp(1.8rem, 4.5vw, 2.8rem);
+  text-transform: uppercase;
+  margin: 0 0 0.6rem;
+}
+
+.cta-strip__text {
+  color: rgba(255, 255, 255, 0.88);
+  margin: 0 0 1.6rem;
+  font-size: 1.05rem;
 }
 
 /* --------------------------- sucursales --------------------------- */

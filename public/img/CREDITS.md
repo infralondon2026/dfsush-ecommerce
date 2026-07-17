@@ -1,0 +1,66 @@
+# Créditos de imágenes
+
+Fotos de producto oficiales: Duty Free Shop Atlántico Sur (London Supply Group).
+Resto de la fotografía: [Unsplash](https://unsplash.com) — licencia Unsplash (uso comercial permitido).
+
+- products/jameson-caskmates-stout.jpg — Duty Free Shop Atlántico Sur
+- products/lagarde-dolce-espumante.jpg — Duty Free Shop Atlántico Sur
+- products/johnnie-walker-black.jpg — Duty Free Shop Atlántico Sur
+- products/dpoeti-rosso-montalcino.jpg — Duty Free Shop Atlántico Sur
+- products/prada-la-femme-intense.jpg — Duty Free Shop Atlántico Sur
+- products/paco-rabanne-pure-xs-night.jpg — Duty Free Shop Atlántico Sur
+- products/lancome-la-vie-est-belle-leclat.jpg — Duty Free Shop Atlántico Sur
+- products/prada-luna-rossa.jpg — Duty Free Shop Atlántico Sur
+- products/xiaomi-redmi-buds.jpg — Duty Free Shop Atlántico Sur
+- products/logitech-k400-plus.jpg — Duty Free Shop Atlántico Sur
+- products/ue-wonderboom-2.jpg — Duty Free Shop Atlántico Sur
+- products/xiaomi-power-bank-2s.jpg — Duty Free Shop Atlántico Sur
+- products/chivas-regal-12.jpg — Unsplash PTuyhS7mH8E (“una botella de alcohol encima de una mesa”)
+- products/jack-daniels-old-no7.jpg — Unsplash cyLJ5mMbXhM (“Una botella de whisky Jack Daniels sentada sobre u”)
+- products/absolut-vodka.jpg — Unsplash KIqw3GIhdHA (“Lote de botellas de Absolut Vodka”)
+- products/grey-goose.jpg — Unsplash 7RNjcRF1d9Y (“Una botella de vodka Grey Goose junto a un vaso de”)
+- products/bombay-sapphire.jpg — Unsplash knd7VOzW_bQ (“una botella de vino sobre una mesa”)
+- products/chanel-n5-edp.jpg — Unsplash 3np1OQtppdc (“Un frasco de perfume encima de una mesa”)
+- products/dior-sauvage-edt.jpg — Unsplash XL1DXcwE2fg (“Un frasco de colonia encima de un bloque blanco”)
+- products/armani-acqua-di-gio.jpg — Unsplash yiXwgRfQMAI (“Frasco de perfume Acqua di gio con iluminación cál”)
+- products/lancome-advanced-genifique.jpg — Unsplash OeU6dAE5Y4E (“una mano sosteniendo una pequeña botella de líquid”)
+- products/mac-retro-matte-ruby-woo.jpg — Unsplash rNHVfNsOvYs (“Empaque de lápiz labial femenino de lujo en un ped”)
+- products/jbl-flip-6.jpg — Unsplash zxvnrxl5OXc (“Altavoz portátil LG negro y rojo”)
+- products/sony-wh-ch520.jpg — Unsplash qcZpoGO7Sh8 (“un par de auriculares encima de una mesa”)
+- products/nintendo-switch-lite.jpg — Unsplash d_KYSGEMW9I (“Interruptor de suministro sobre fondo blanco”)
+- products/toblerone-leche-360.jpg — Unsplash BIikUBusF64 (“una cruz de madera sobre una piedra”)
+- products/lindt-lindor-surtido-200.jpg — Unsplash e5Ov-h_-rCs (“Caramelo rojo y azul en bandeja de cerámica blanca”)
+- products/ferrero-rocher-t24.jpg — Unsplash w_sUaOejSkE (“Un montón de caramelos de chocolate sentados encim”)
+- products/mms-peanut-400.jpg — Unsplash EHBWvP6uemQ (“Un grupo de caramelos de colores”)
+- products/havanna-alfajores-12.jpg — Unsplash pXn0Cm5RUfg (“Pasteles triangulares cubiertos con nueces y caram”)
+- products/twinings-english-breakfast.jpg — Unsplash YwFGva78-H4 (“Una taza de té con una cuchara en un platillo”)
+- products/rayban-aviator-classic.jpg — Unsplash 2xi7TdpE8Bo (“un par de gafas de sol sobre un fondo marrón”)
+- products/casio-gshock-ga2100.jpg — Unsplash -NUwvZkYZ3E (“Reloj analógico Casio G-Shock redondo negro y nara”)
+- products/swatch-big-bold.jpg — Unsplash t8NQd4l0-Jc (“Un hombre con un reloj en la muñeca”)
+- products/tommy-billetera-cuero.jpg — Unsplash 5GcinGOptTs (“Una billetera con dinero que sobresale de ella”)
+- products/pashmina-austral.jpg — Unsplash NGasWRtobxU (“una mujer sentada en el bosque con un pañuelo alre”)
+- products/lego-classic-creativa.jpg — Unsplash 278XqvKWuJI (“Fichas de dominó coloridas esparcidas sobre una su”)
+- products/hot-wheels-pack5.jpg — Unsplash VriI0a5bKYo (“Un coche de juguete azul sentado en la parte super”)
+- products/uno-cartas.jpg — Unsplash ndcUashgYBQ (“Una obra de arte con una tarjeta encima”)
+- products/peluche-pinguino-austral.jpg — Unsplash BlSb36WWzQQ (“Un proyecto de costura con un pingüino y un carret”)
+- products/cubo-rubik-3x3.jpg — Unsplash eBy2wPJf1xk (“Un grupo de cubos flotando en el aire”)
+- products/samsonite-cabina-55.jpg — Unsplash mdcFyvBHLc8 (“Una persona tirando de una maleta amarilla con rue”)
+- products/swissgear-mochila-28.jpg — Unsplash 8cD-wNOKUro (“Una mochila llena de libros y otros artículos sobr”)
+- products/samsonite-neceser.jpg — Unsplash wkrtS2AFgww (“Una persona está manipulando una bolsa azul marino”)
+- products/cabeau-almohada-viaje.jpg — Unsplash MNjY31CU6rA (“Una mujer sentada en un avión sosteniendo un teléf”)
+- products/stanley-termo-clasico.jpg — Unsplash 8V_ehc1Kva0 (“Tres personas vertiendo agua en tazas”)
+- products/set-matero-austral.jpg — Unsplash -4koagkHFRI (“Un montón de calabazas sentadas una al lado de la ”)
+- products/victorinox-swiss-classic.jpg — Unsplash IHOZZISJIgE (“un mostrador de cocina con una tabla de cortar, cu”)
+- products/bialetti-moka-express.jpg — Unsplash SQuEaNh2hB8 (“cafetera plateada que se vierte en una taza de vid”)
+- categories/bebidas.jpg — Unsplash pqEDCtmTMl8 (“Estanterías de bar iluminadas con varias botellas ”)
+- categories/perfumeria.jpg — Unsplash Fs9Vw1OYHJU (“Un grupo de botellas de vidrio”)
+- categories/electronica.jpg — Unsplash A6hzRnwR3vM (“un par de auriculares uno encima del otro”)
+- categories/comestibles.jpg — Unsplash P0LByiA_H9M (“Un primer plano de muchos tipos diferentes de choc”)
+- categories/moda.jpg — Unsplash rAMfGvHYtoE (“Varios objetos pequeños están dispuestos ordenadam”)
+- categories/juguetes.jpg — Unsplash Eh5OZayLqRY (“Una pila de juguetes coloridos sentados encima de ”)
+- categories/viaje.jpg — Unsplash KdXjCewWq94 (“Joven deportista tirando de su maleta mientras pas”)
+- categories/home.jpg — Unsplash JRY77tRNXmo (“una cafetera y un molinillo sentados sobre una mes”)
+- hero-ushuaia.jpg — Unsplash iSeN0-C_Xm4 (“Una cadena montañosa con montañas cubiertas de nie”)
+- hero-travel.jpg — Unsplash _G7FW24mzb0 (“una ventana de avión con vistas a las montañas cub”)
+- products/baileys-original.jpg — Unsplash ZfWGgVfS4Os
+- products/ch-212-vip-rose.jpg — Unsplash bG7JSKq5W5E

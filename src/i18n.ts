@@ -90,6 +90,12 @@ const es = {
       },
     ],
   },
+  cta: {
+    kicker: 'Antes de embarcar',
+    title: '¿Listo para tu próximo vuelo?',
+    text: 'Armá tu compra hoy y retirala camino al avión. Precios duty free, stock reservado y tu QR en el teléfono.',
+    button: 'Empezar a comprar',
+  },
   branches: {
     title: 'Sucursales',
     subtitle: 'Te esperamos en Tierra del Fuego',
@@ -423,6 +429,12 @@ const pt: Dict = {
       },
     ],
   },
+  cta: {
+    kicker: 'Antes de embarcar',
+    title: 'Pronto para o seu próximo voo?',
+    text: 'Monte sua compra hoje e retire a caminho do avião. Preços duty free, estoque reservado e seu QR no celular.',
+    button: 'Começar a comprar',
+  },
   branches: {
     title: 'Lojas',
     subtitle: 'Esperamos você na Terra do Fogo',
@@ -753,6 +765,12 @@ const en: Dict = {
         a: 'If your order is still pending payment, simply let it expire. If you already paid, contact us at the store or through our support channels to arrange a cancellation under the sales conditions.',
       },
     ],
+  },
+  cta: {
+    kicker: 'Before you board',
+    title: 'Ready for your next flight?',
+    text: 'Build your order today and pick it up on the way to your plane. Duty free prices, reserved stock and your QR on your phone.',
+    button: 'Start shopping',
   },
   branches: {
     title: 'Stores',

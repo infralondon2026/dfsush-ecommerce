@@ -10,7 +10,7 @@ export const demoCategories: Category[] = [
     "nameEs": "Bebidas",
     "namePt": "Bebidas",
     "nameEn": "Spirits & Wines",
-    "image": "img/categories/bebidas.svg",
+    "image": "img/categories/bebidas.jpg",
     "sort": 1
   },
   {
@@ -18,7 +18,7 @@ export const demoCategories: Category[] = [
     "nameEs": "Perfumería",
     "namePt": "Perfumaria",
     "nameEn": "Fragrances & Beauty",
-    "image": "img/categories/perfumeria.svg",
+    "image": "img/categories/perfumeria.jpg",
     "sort": 2
   },
   {
@@ -26,7 +26,7 @@ export const demoCategories: Category[] = [
     "nameEs": "Electrónica",
     "namePt": "Eletrônicos",
     "nameEn": "Electronics",
-    "image": "img/categories/electronica.svg",
+    "image": "img/categories/electronica.jpg",
     "sort": 3
   },
   {
@@ -34,7 +34,7 @@ export const demoCategories: Category[] = [
     "nameEs": "Comestibles",
     "namePt": "Comestíveis",
     "nameEn": "Food & Sweets",
-    "image": "img/categories/comestibles.svg",
+    "image": "img/categories/comestibles.jpg",
     "sort": 4
   },
   {
@@ -42,7 +42,7 @@ export const demoCategories: Category[] = [
     "nameEs": "Moda y Accesorios",
     "namePt": "Moda e Acessórios",
     "nameEn": "Fashion & Accessories",
-    "image": "img/categories/moda.svg",
+    "image": "img/categories/moda.jpg",
     "sort": 5
   },
   {
@@ -50,7 +50,7 @@ export const demoCategories: Category[] = [
     "nameEs": "Juguetes",
     "namePt": "Brinquedos",
     "nameEn": "Toys",
-    "image": "img/categories/juguetes.svg",
+    "image": "img/categories/juguetes.jpg",
     "sort": 6
   },
   {
@@ -58,7 +58,7 @@ export const demoCategories: Category[] = [
     "nameEs": "Artículos de Viaje",
     "namePt": "Artigos de Viagem",
     "nameEn": "Travel",
-    "image": "img/categories/viaje.svg",
+    "image": "img/categories/viaje.jpg",
     "sort": 7
   },
   {
@@ -66,7 +66,7 @@ export const demoCategories: Category[] = [
     "nameEs": "Home & Design",
     "namePt": "Casa & Design",
     "nameEn": "Home & Design",
-    "image": "img/categories/home.svg",
+    "image": "img/categories/home.jpg",
     "sort": 8
   }
 ];
@@ -81,7 +81,7 @@ export const demoProducts: Product[] = [
     "descEs": "Whiskey irlandés terminado en barricas de cerveza stout: notas de cacao, café y un final suave.",
     "descPt": "Whiskey irlandês finalizado em barris de cerveja stout: notas de cacau, café e final suave.",
     "descEn": "Irish whiskey finished in stout beer casks: cocoa and coffee notes with a smooth finish.",
-    "image": "img/products/jameson-caskmates-stout.svg",
+    "image": "img/products/jameson-caskmates-stout.jpg",
     "featured": true,
     "active": true,
     "variants": [
@@ -104,7 +104,7 @@ export const demoProducts: Product[] = [
     "descEs": "El blend escocés icónico, madurado 12 años. Formato 3 litros exclusivo de duty free.",
     "descPt": "O blend escocês icônico, maturado por 12 anos. Formato 3 litros exclusivo de duty free.",
     "descEn": "The iconic Scotch blend, aged 12 years. Travel-exclusive 3-litre format available.",
-    "image": "img/products/johnnie-walker-black.svg",
+    "image": "img/products/johnnie-walker-black.jpg",
     "featured": true,
     "active": true,
     "variants": [
@@ -135,7 +135,7 @@ export const demoProducts: Product[] = [
     "descEs": "Scotch whisky de 12 años, redondo y cremoso, con notas de miel y manzana madura.",
     "descPt": "Scotch whisky de 12 anos, redondo e cremoso, com notas de mel e maçã madura.",
     "descEn": "A rich, smooth 12-year-old Scotch with honey and ripe apple notes.",
-    "image": "img/products/chivas-regal-12.svg",
+    "image": "img/products/chivas-regal-12.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -166,7 +166,7 @@ export const demoProducts: Product[] = [
     "descEs": "El clásico de Tennessee filtrado gota a gota en carbón de arce. Suave y con carácter.",
     "descPt": "O clássico do Tennessee filtrado gota a gota em carvão de bordo. Suave e com caráter.",
     "descEn": "The Tennessee classic, charcoal-mellowed drop by drop. Smooth with character.",
-    "image": "img/products/jack-daniels-old-no7.svg",
+    "image": "img/products/jack-daniels-old-no7.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -189,7 +189,7 @@ export const demoProducts: Product[] = [
     "descEs": "Vodka sueco de trigo de invierno, destilado de forma continua para una pureza excepcional.",
     "descPt": "Vodka sueca de trigo de inverno, destilada continuamente para uma pureza excepcional.",
     "descEn": "Swedish winter-wheat vodka, continuously distilled for exceptional purity.",
-    "image": "img/products/absolut-vodka.svg",
+    "image": "img/products/absolut-vodka.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -212,7 +212,7 @@ export const demoProducts: Product[] = [
     "descEs": "Vodka premium francés elaborado con trigo de Picardía y agua de manantial natural.",
     "descPt": "Vodka premium francesa feita com trigo da Picardia e água de nascente natural.",
     "descEn": "Premium French vodka crafted from Picardy wheat and natural spring water.",
-    "image": "img/products/grey-goose.svg",
+    "image": "img/products/grey-goose.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -235,7 +235,7 @@ export const demoProducts: Product[] = [
     "descEs": "Gin destilado al vapor con 10 botánicos seleccionados a mano. El alma del gin tonic perfecto.",
     "descPt": "Gin destilado a vapor com 10 botânicos selecionados à mão. A alma do gin tônica perfeito.",
     "descEn": "Vapour-infused gin with 10 hand-selected botanicals. The soul of a perfect G&T.",
-    "image": "img/products/bombay-sapphire.svg",
+    "image": "img/products/bombay-sapphire.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -258,7 +258,7 @@ export const demoProducts: Product[] = [
     "descEs": "La crema irlandesa original: whiskey, crema fresca y cacao en perfecta armonía.",
     "descPt": "O creme irlandês original: whiskey, creme fresco e cacau em perfeita harmonia.",
     "descEn": "The original Irish cream: whiskey, fresh dairy cream and cocoa in perfect harmony.",
-    "image": "img/products/baileys-original.svg",
+    "image": "img/products/baileys-original.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -281,7 +281,7 @@ export const demoProducts: Product[] = [
     "descEs": "Espumante dulce natural de bodega mendocina, fresco y frutado. Ideal para brindar.",
     "descPt": "Espumante doce natural de vinícola mendocina, fresco e frutado. Ideal para brindar.",
     "descEn": "Naturally sweet sparkling wine from Mendoza — fresh, fruity, made for a toast.",
-    "image": "img/products/lagarde-dolce-espumante.svg",
+    "image": "img/products/lagarde-dolce-espumante.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -304,7 +304,7 @@ export const demoProducts: Product[] = [
     "descEs": "Tinto toscano de uva Sangiovese, elegante y especiado, con denominación de origen.",
     "descPt": "Tinto toscano de uva Sangiovese, elegante e condimentado, com denominação de origem.",
     "descEn": "Tuscan Sangiovese red — elegant, spicy, with protected designation of origin.",
-    "image": "img/products/dpoeti-rosso-montalcino.svg",
+    "image": "img/products/dpoeti-rosso-montalcino.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -327,7 +327,7 @@ export const demoProducts: Product[] = [
     "descEs": "Frangipani, tuberosa y vainilla en una interpretación intensa y envolvente de la feminidad.",
     "descPt": "Frangipani, tuberosa e baunilha em uma interpretação intensa e envolvente da feminilidade.",
     "descEn": "Frangipani, tuberose and vanilla in an intense, enveloping take on femininity.",
-    "image": "img/products/prada-la-femme-intense.svg",
+    "image": "img/products/prada-la-femme-intense.jpg",
     "featured": true,
     "active": true,
     "variants": [
@@ -350,7 +350,7 @@ export const demoProducts: Product[] = [
     "descEs": "Oriental ambarado con jengibre, cacao y vainilla bourbon. Seducción nocturna.",
     "descPt": "Oriental ambarado com gengibre, cacau e baunilha bourbon. Sedução noturna.",
     "descEn": "Amber oriental with ginger, cacao and bourbon vanilla. Night-time seduction.",
-    "image": "img/products/paco-rabanne-pure-xs-night.svg",
+    "image": "img/products/paco-rabanne-pure-xs-night.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -381,7 +381,7 @@ export const demoProducts: Product[] = [
     "descEs": "La felicidad hecha fragancia: azahar luminoso, jazmín y un fondo cálido de vainilla.",
     "descPt": "A felicidade em fragrância: flor de laranjeira luminosa, jasmim e fundo quente de baunilha.",
     "descEn": "Happiness as a fragrance: luminous orange blossom, jasmine and a warm vanilla base.",
-    "image": "img/products/lancome-la-vie-est-belle-leclat.svg",
+    "image": "img/products/lancome-la-vie-est-belle-leclat.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -404,7 +404,7 @@ export const demoProducts: Product[] = [
     "descEs": "Frescura deportiva de lavanda y menta inspirada en la vela de competición.",
     "descPt": "Frescor esportivo de lavanda e menta inspirado na vela de competição.",
     "descEn": "Sporty freshness of lavender and mint, inspired by competitive sailing.",
-    "image": "img/products/prada-luna-rossa.svg",
+    "image": "img/products/prada-luna-rossa.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -435,7 +435,7 @@ export const demoProducts: Product[] = [
     "descEs": "El perfume más famoso del mundo: aldehídos, rosa de mayo y jazmín de Grasse.",
     "descPt": "O perfume mais famoso do mundo: aldeídos, rosa de maio e jasmim de Grasse.",
     "descEn": "The world’s most famous perfume: aldehydes, May rose and Grasse jasmine.",
-    "image": "img/products/chanel-n5-edp.svg",
+    "image": "img/products/chanel-n5-edp.jpg",
     "featured": true,
     "active": true,
     "variants": [
@@ -466,7 +466,7 @@ export const demoProducts: Product[] = [
     "descEs": "Bergamota de Calabria y ambroxan sobre un fondo mineral. Frescura radicalmente masculina.",
     "descPt": "Bergamota da Calábria e ambroxan sobre um fundo mineral. Frescor radicalmente masculino.",
     "descEn": "Calabrian bergamot and ambroxan over a mineral base. Radically fresh and masculine.",
-    "image": "img/products/dior-sauvage-edt.svg",
+    "image": "img/products/dior-sauvage-edt.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -497,7 +497,7 @@ export const demoProducts: Product[] = [
     "descEs": "Champagne rosé, flor de durazno y almizcle: el espíritu de la fiesta neoyorquina.",
     "descPt": "Champagne rosé, flor de pêssego e almíscar: o espírito da festa nova-iorquina.",
     "descEn": "Rosé champagne, peach blossom and musk: the spirit of the New York party.",
-    "image": "img/products/ch-212-vip-rose.svg",
+    "image": "img/products/ch-212-vip-rose.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -520,7 +520,7 @@ export const demoProducts: Product[] = [
     "descEs": "Un clásico marino mediterráneo: cítricos, jazmín acuático y maderas cálidas.",
     "descPt": "Um clássico marinho mediterrâneo: cítricos, jasmim aquático e madeiras quentes.",
     "descEn": "A Mediterranean marine classic: citrus, aquatic jasmine and warm woods.",
-    "image": "img/products/armani-acqua-di-gio.svg",
+    "image": "img/products/armani-acqua-di-gio.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -551,7 +551,7 @@ export const demoProducts: Product[] = [
     "descEs": "Sérum de tratamiento con prebióticos que fortalece la barrera de la piel y aporta luminosidad.",
     "descPt": "Sérum de tratamento com prebióticos que fortalece a barreira da pele e traz luminosidade.",
     "descEn": "Prebiotic treatment serum that strengthens the skin barrier and restores radiance.",
-    "image": "img/products/lancome-advanced-genifique.svg",
+    "image": "img/products/lancome-advanced-genifique.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -574,7 +574,7 @@ export const demoProducts: Product[] = [
     "descEs": "El rojo mate universal de M·A·C, de acabado retro y larga duración.",
     "descPt": "O vermelho fosco universal da M·A·C, com acabamento retrô e longa duração.",
     "descEn": "M·A·C’s universally flattering matte red with a long-wearing retro finish.",
-    "image": "img/products/mac-retro-matte-ruby-woo.svg",
+    "image": "img/products/mac-retro-matte-ruby-woo.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -597,7 +597,7 @@ export const demoProducts: Product[] = [
     "descEs": "Auriculares true wireless con estuche de carga, Bluetooth 5.3 y cancelación de ruido en llamadas.",
     "descPt": "Fones true wireless com estojo de carga, Bluetooth 5.3 e cancelamento de ruído em chamadas.",
     "descEn": "True wireless earbuds with charging case, Bluetooth 5.3 and call noise cancellation.",
-    "image": "img/products/xiaomi-redmi-buds.svg",
+    "image": "img/products/xiaomi-redmi-buds.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -620,7 +620,7 @@ export const demoProducts: Product[] = [
     "descEs": "Teclado inalámbrico con touchpad integrado, ideal para smart TV y home office.",
     "descPt": "Teclado sem fio com touchpad integrado, ideal para smart TV e home office.",
     "descEn": "Wireless keyboard with built-in touchpad — perfect for smart TVs and home office.",
-    "image": "img/products/logitech-k400-plus.svg",
+    "image": "img/products/logitech-k400-plus.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -643,7 +643,7 @@ export const demoProducts: Product[] = [
     "descEs": "Parlante portátil resistente al agua con sonido 360° y 13 horas de batería.",
     "descPt": "Caixa de som portátil à prova d’água com som 360° e 13 horas de bateria.",
     "descEn": "Waterproof portable speaker with 360° sound and 13 hours of battery life.",
-    "image": "img/products/ue-wonderboom-2.svg",
+    "image": "img/products/ue-wonderboom-2.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -666,7 +666,7 @@ export const demoProducts: Product[] = [
     "descEs": "Batería portátil de 10.000 mAh con doble salida USB y carga rápida.",
     "descPt": "Bateria portátil de 10.000 mAh com dupla saída USB e carga rápida.",
     "descEn": "10,000 mAh portable battery with dual USB output and fast charging.",
-    "image": "img/products/xiaomi-power-bank-2s.svg",
+    "image": "img/products/xiaomi-power-bank-2s.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -689,7 +689,7 @@ export const demoProducts: Product[] = [
     "descEs": "Sonido JBL Original Pro con graves profundos, IP67 y 12 horas de reproducción.",
     "descPt": "Som JBL Original Pro com graves profundos, IP67 e 12 horas de reprodução.",
     "descEn": "JBL Original Pro sound with deep bass, IP67 rating and 12 hours of playtime.",
-    "image": "img/products/jbl-flip-6.svg",
+    "image": "img/products/jbl-flip-6.jpg",
     "featured": true,
     "active": true,
     "variants": [
@@ -712,7 +712,7 @@ export const demoProducts: Product[] = [
     "descEs": "Auriculares inalámbricos on-ear con 50 horas de batería y conexión multipunto.",
     "descPt": "Fones sem fio on-ear com 50 horas de bateria e conexão multiponto.",
     "descEn": "Wireless on-ear headphones with 50-hour battery and multipoint connection.",
-    "image": "img/products/sony-wh-ch520.svg",
+    "image": "img/products/sony-wh-ch520.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -735,7 +735,7 @@ export const demoProducts: Product[] = [
     "descEs": "Consola portátil compacta y liviana, dedicada al juego en modo portátil.",
     "descPt": "Console portátil compacto e leve, dedicado ao jogo em modo portátil.",
     "descEn": "Compact, lightweight handheld console dedicated to portable play.",
-    "image": "img/products/nintendo-switch-lite.svg",
+    "image": "img/products/nintendo-switch-lite.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -758,7 +758,7 @@ export const demoProducts: Product[] = [
     "descEs": "El triángulo suizo clásico con miel y turrón de almendras. Formato viajero de 360 g.",
     "descPt": "O triângulo suíço clássico com mel e torrone de amêndoas. Formato viagem de 360 g.",
     "descEn": "The classic Swiss triangle with honey and almond nougat. 360 g travel format.",
-    "image": "img/products/toblerone-leche-360.svg",
+    "image": "img/products/toblerone-leche-360.jpg",
     "featured": true,
     "active": true,
     "variants": [
@@ -781,7 +781,7 @@ export const demoProducts: Product[] = [
     "descEs": "Bombones Lindor de centro cremoso en surtido de leche, blanco y amargo.",
     "descPt": "Bombons Lindor de centro cremoso em sortido ao leite, branco e amargo.",
     "descEn": "Lindor truffles with a smooth melting centre — milk, white and dark assortment.",
-    "image": "img/products/lindt-lindor-surtido-200.svg",
+    "image": "img/products/lindt-lindor-surtido-200.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -804,7 +804,7 @@ export const demoProducts: Product[] = [
     "descEs": "Avellana entera, crema de avellanas y oblea crocante bañada en chocolate. Caja x24.",
     "descPt": "Avelã inteira, creme de avelãs e wafer crocante banhado em chocolate. Caixa x24.",
     "descEn": "Whole hazelnut, hazelnut cream and crisp wafer coated in chocolate. Box of 24.",
-    "image": "img/products/ferrero-rocher-t24.svg",
+    "image": "img/products/ferrero-rocher-t24.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -827,7 +827,7 @@ export const demoProducts: Product[] = [
     "descEs": "Maní recubierto de chocolate con leche y confite de colores, en bolsa familiar.",
     "descPt": "Amendoim coberto de chocolate ao leite e confeito colorido, em embalagem família.",
     "descEn": "Peanuts covered in milk chocolate and colourful candy shell — family size bag.",
-    "image": "img/products/mms-peanut-400.svg",
+    "image": "img/products/mms-peanut-400.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -850,7 +850,7 @@ export const demoProducts: Product[] = [
     "descEs": "El alfajor argentino por excelencia: dulce de leche y chocolate o merengue italiano.",
     "descPt": "O alfajor argentino por excelência: doce de leite e chocolate ou merengue italiano.",
     "descEn": "Argentina’s signature alfajor: dulce de leche with chocolate or Italian meringue.",
-    "image": "img/products/havanna-alfajores-12.svg",
+    "image": "img/products/havanna-alfajores-12.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -873,7 +873,7 @@ export const demoProducts: Product[] = [
     "descEs": "Blend clásico de té negro, robusto y equilibrado. Caja de 100 saquitos.",
     "descPt": "Blend clássico de chá preto, robusto e equilibrado. Caixa com 100 sachês.",
     "descEn": "Classic robust and balanced black tea blend. Box of 100 tea bags.",
-    "image": "img/products/twinings-english-breakfast.svg",
+    "image": "img/products/twinings-english-breakfast.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -896,7 +896,7 @@ export const demoProducts: Product[] = [
     "descEs": "El icónico aviador con lentes de cristal G-15 y protección UV total.",
     "descPt": "O icônico aviador com lentes de cristal G-15 e proteção UV total.",
     "descEn": "The iconic aviator with G-15 crystal lenses and full UV protection.",
-    "image": "img/products/rayban-aviator-classic.svg",
+    "image": "img/products/rayban-aviator-classic.jpg",
     "featured": true,
     "active": true,
     "variants": [
@@ -919,7 +919,7 @@ export const demoProducts: Product[] = [
     "descEs": "Resistencia G-Shock en perfil ultra delgado, con carcasa octogonal de carbono.",
     "descPt": "Resistência G-Shock em perfil ultrafino, com caixa octogonal de carbono.",
     "descEn": "G-Shock toughness in an ultra-slim profile with octagonal carbon case.",
-    "image": "img/products/casio-gshock-ga2100.svg",
+    "image": "img/products/casio-gshock-ga2100.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -942,7 +942,7 @@ export const demoProducts: Product[] = [
     "descEs": "Reloj suizo de 47 mm con espíritu urbano y correa de silicona.",
     "descPt": "Relógio suíço de 47 mm com espírito urbano e pulseira de silicone.",
     "descEn": "A 47 mm Swiss watch with urban attitude and silicone strap.",
-    "image": "img/products/swatch-big-bold.svg",
+    "image": "img/products/swatch-big-bold.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -965,7 +965,7 @@ export const demoProducts: Product[] = [
     "descEs": "Billetera plegable de cuero genuino con múltiples tarjeteros y monedero.",
     "descPt": "Carteira dobrável de couro genuíno com vários porta-cartões e porta-moedas.",
     "descEn": "Genuine leather bifold wallet with multiple card slots and coin pocket.",
-    "image": "img/products/tommy-billetera-cuero.svg",
+    "image": "img/products/tommy-billetera-cuero.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -988,7 +988,7 @@ export const demoProducts: Product[] = [
     "descEs": "Pashmina suave de seda y lana, perfecta para el clima fueguino. Varios colores.",
     "descPt": "Pashmina macia de seda e lã, perfeita para o clima fueguino. Várias cores.",
     "descEn": "Soft silk-and-wool pashmina, perfect for the Fuegian climate. Assorted colours.",
-    "image": "img/products/pashmina-austral.svg",
+    "image": "img/products/pashmina-austral.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -1011,7 +1011,7 @@ export const demoProducts: Product[] = [
     "descEs": "Ladrillos LEGO de 33 colores con ruedas, ojos y piezas especiales para crear sin límites.",
     "descPt": "Peças LEGO em 33 cores com rodas, olhos e peças especiais para criar sem limites.",
     "descEn": "LEGO bricks in 33 colours with wheels, eyes and special pieces for limitless building.",
-    "image": "img/products/lego-classic-creativa.svg",
+    "image": "img/products/lego-classic-creativa.jpg",
     "featured": true,
     "active": true,
     "variants": [
@@ -1034,7 +1034,7 @@ export const demoProducts: Product[] = [
     "descEs": "Cinco vehículos Hot Wheels a escala 1:64 con diseños temáticos surtidos.",
     "descPt": "Cinco veículos Hot Wheels em escala 1:64 com designs temáticos sortidos.",
     "descEn": "Five 1:64-scale Hot Wheels vehicles in assorted themed designs.",
-    "image": "img/products/hot-wheels-pack5.svg",
+    "image": "img/products/hot-wheels-pack5.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -1057,7 +1057,7 @@ export const demoProducts: Product[] = [
     "descEs": "El juego de cartas más famoso del mundo, para toda la familia. De 2 a 10 jugadores.",
     "descPt": "O jogo de cartas mais famoso do mundo, para toda a família. De 2 a 10 jogadores.",
     "descEn": "The world’s most famous card game, fun for the whole family. 2 to 10 players.",
-    "image": "img/products/uno-cartas.svg",
+    "image": "img/products/uno-cartas.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -1080,7 +1080,7 @@ export const demoProducts: Product[] = [
     "descEs": "Un recuerdo del fin del mundo: pingüino de peluche súper suave de 30 cm.",
     "descPt": "Uma lembrança do fim do mundo: pinguim de pelúcia super macio de 30 cm.",
     "descEn": "A keepsake from the end of the world: super-soft 30 cm penguin plush.",
-    "image": "img/products/peluche-pinguino-austral.svg",
+    "image": "img/products/peluche-pinguino-austral.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -1103,7 +1103,7 @@ export const demoProducts: Product[] = [
     "descEs": "El rompecabezas clásico de 43 trillones de combinaciones y una sola solución.",
     "descPt": "O quebra-cabeça clássico de 43 trilhões de combinações e uma única solução.",
     "descEn": "The classic puzzle: 43 quintillion combinations, only one solution.",
-    "image": "img/products/cubo-rubik-3x3.svg",
+    "image": "img/products/cubo-rubik-3x3.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -1126,7 +1126,7 @@ export const demoProducts: Product[] = [
     "descEs": "Valija rígida de cabina con 4 ruedas dobles, candado TSA y garantía internacional.",
     "descPt": "Mala rígida de cabine com 4 rodas duplas, cadeado TSA e garantia internacional.",
     "descEn": "Hard-shell cabin case with 4 double wheels, TSA lock and international warranty.",
-    "image": "img/products/samsonite-cabina-55.svg",
+    "image": "img/products/samsonite-cabina-55.jpg",
     "featured": true,
     "active": true,
     "variants": [
@@ -1149,7 +1149,7 @@ export const demoProducts: Product[] = [
     "descEs": "Mochila de 28 litros con compartimento acolchado para notebook de 15,6\".",
     "descPt": "Mochila de 28 litros com compartimento acolchoado para notebook de 15,6\".",
     "descEn": "28-litre backpack with padded compartment for a 15.6\" laptop.",
-    "image": "img/products/swissgear-mochila-28.svg",
+    "image": "img/products/swissgear-mochila-28.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -1172,7 +1172,7 @@ export const demoProducts: Product[] = [
     "descEs": "Neceser compacto con gancho colgante y bolsillos internos impermeables.",
     "descPt": "Nécessaire compacta com gancho suspenso e bolsos internos impermeáveis.",
     "descEn": "Compact toiletry kit with hanging hook and waterproof inner pockets.",
-    "image": "img/products/samsonite-neceser.svg",
+    "image": "img/products/samsonite-neceser.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -1218,7 +1218,7 @@ export const demoProducts: Product[] = [
     "descEs": "El termo legendario: acero inoxidable, 24 horas de temperatura y garantía de por vida.",
     "descPt": "A garrafa térmica lendária: aço inox, 24 horas de temperatura e garantia vitalícia.",
     "descEn": "The legendary flask: stainless steel, 24-hour temperature retention, lifetime warranty.",
-    "image": "img/products/stanley-termo-clasico.svg",
+    "image": "img/products/stanley-termo-clasico.jpg",
     "featured": true,
     "active": true,
     "variants": [
@@ -1241,7 +1241,7 @@ export const demoProducts: Product[] = [
     "descEs": "Mate de calabaza curado con virola de alpaca y bombilla pico de loro.",
     "descPt": "Cuia de porongo curada com detalhe de alpaca e bomba pico de loro.",
     "descEn": "Cured gourd mate with alpaca trim and traditional bombilla straw.",
-    "image": "img/products/set-matero-austral.svg",
+    "image": "img/products/set-matero-austral.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -1264,7 +1264,7 @@ export const demoProducts: Product[] = [
     "descEs": "Set de cuchillos de cocina suizos con hojas de acero inoxidable de alta precisión.",
     "descPt": "Conjunto de facas de cozinha suíças com lâminas de aço inox de alta precisão.",
     "descEn": "Swiss kitchen knife set with high-precision stainless steel blades.",
-    "image": "img/products/victorinox-swiss-classic.svg",
+    "image": "img/products/victorinox-swiss-classic.jpg",
     "featured": false,
     "active": true,
     "variants": [
@@ -1287,7 +1287,7 @@ export const demoProducts: Product[] = [
     "descEs": "La cafetera italiana original de aluminio, ícono del espresso casero desde 1933.",
     "descPt": "A cafeteira italiana original de alumínio, ícone do espresso caseiro desde 1933.",
     "descEn": "The original Italian aluminium coffee maker, a home-espresso icon since 1933.",
-    "image": "img/products/bialetti-moka-express.svg",
+    "image": "img/products/bialetti-moka-express.jpg",
     "featured": false,
     "active": true,
     "variants": [
