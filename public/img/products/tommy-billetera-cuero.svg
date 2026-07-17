@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Tommy Hilfiger Billetera de Cuero">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#20666a"/>
+      <stop offset="1" stop-color="#081f21"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="300" cy="290" r="215" fill="#ffffff" opacity=".07"/>
+  <circle cx="300" cy="290" r="160" fill="#ffffff" opacity=".06"/>
+  <g transform="translate(165 155) scale(2.7)" fill="#ffffff" opacity=".94"><path d="M12 26h70a8 8 0 0 1 8 8v40a8 8 0 0 1-8 8H20a8 8 0 0 1-8-8z"/><path d="M12 26a8 8 0 0 1 8-8h52v8z" opacity=".85"/><rect x="62" y="46" width="28" height="16" rx="5" fill="#00000035"/><circle cx="74" cy="54" r="4"/></g>
+  <text x="300" y="536" text-anchor="middle" font-family="'PT Sans', Arial, sans-serif" font-size="30" font-weight="bold" fill="#ffffff" opacity=".85" letter-spacing="4">TOMMY HILFIGER</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Xiaomi Power Bank 2S 10000 mAh">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d629c"/>
+      <stop offset="1" stop-color="#0e1122"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="300" cy="290" r="215" fill="#ffffff" opacity=".07"/>
+  <circle cx="300" cy="290" r="160" fill="#ffffff" opacity=".06"/>
+  <g transform="translate(165 155) scale(2.7)" fill="#ffffff" opacity=".94"><rect x="30" y="8" width="40" height="84" rx="10"/><path d="M56 26 40 56h9l-5 20 17-30h-10z" fill="#00000035"/></g>
+  <text x="300" y="536" text-anchor="middle" font-family="'PT Sans', Arial, sans-serif" font-size="30" font-weight="bold" fill="#ffffff" opacity=".85" letter-spacing="4">XIAOMI</text>
+</svg>

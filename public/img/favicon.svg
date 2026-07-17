@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#1d629c"/>
+  <g transform="translate(32 32)">
+    <g fill="#f5d304">
+      <path d="M-2 -26h4l1 10h-6zM-2 16h4l1 10h-6z"/>
+      <path d="M-26 -2v4l10 1v-6zM16 -2v4l10 1v-6z" transform="rotate(0)"/>
+      <path d="M-2 -26h4l1 10h-6z" transform="rotate(45)"/>
+      <path d="M-2 -26h4l1 10h-6z" transform="rotate(90)"/>
+      <path d="M-2 -26h4l1 10h-6z" transform="rotate(135)"/>
+      <path d="M-2 -26h4l1 10h-6z" transform="rotate(180)"/>
+      <path d="M-2 -26h4l1 10h-6z" transform="rotate(225)"/>
+      <path d="M-2 -26h4l1 10h-6z" transform="rotate(270)"/>
+      <path d="M-2 -26h4l1 10h-6z" transform="rotate(315)"/>
+    </g>
+    <circle r="13" fill="#df001d"/>
+  </g>
+</svg>

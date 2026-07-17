@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Hot Wheels Pack x5 Vehículos">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b06a10"/>
+      <stop offset="1" stop-color="#3c2103"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="300" cy="290" r="215" fill="#ffffff" opacity=".07"/>
+  <circle cx="300" cy="290" r="160" fill="#ffffff" opacity=".06"/>
+  <g transform="translate(165 155) scale(2.7)" fill="#ffffff" opacity=".94"><path d="M20 52l8-18a8 8 0 0 1 7-5h30a8 8 0 0 1 7 5l8 18v18a4 4 0 0 1-4 4h-6a10 10 0 0 1-20 0H50a10 10 0 0 1-20 0h-6a4 4 0 0 1-4-4z"/><circle cx="40" cy="74" r="7" fill="#00000035"/><circle cx="70" cy="74" r="7" fill="#00000035"/></g>
+  <text x="300" y="536" text-anchor="middle" font-family="'PT Sans', Arial, sans-serif" font-size="30" font-weight="bold" fill="#ffffff" opacity=".85" letter-spacing="4">HOT WHEELS</text>
+</svg>

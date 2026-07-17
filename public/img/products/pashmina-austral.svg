@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Atlántico Sur Selection Pashmina Seda y Lana">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#20666a"/>
+      <stop offset="1" stop-color="#081f21"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="300" cy="290" r="215" fill="#ffffff" opacity=".07"/>
+  <circle cx="300" cy="290" r="160" fill="#ffffff" opacity=".06"/>
+  <g transform="translate(165 155) scale(2.7)" fill="#ffffff" opacity=".94"><path d="M24 12h52c-4 20-4 36 0 56l-10 20-8-18c-3-20-3-38 0-58z" transform="rotate(14 50 50)"/><path d="M20 24c14 6 44 6 58 0" stroke="#00000035" stroke-width="5" fill="none"/></g>
+  <text x="300" y="536" text-anchor="middle" font-family="'PT Sans', Arial, sans-serif" font-size="30" font-weight="bold" fill="#ffffff" opacity=".85" letter-spacing="4">ATLÁNTICO SUR SELECTION</text>
+</svg>

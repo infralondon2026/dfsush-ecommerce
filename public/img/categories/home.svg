@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Home &amp; Design">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4d5568"/>
+      <stop offset="1" stop-color="#14161f"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <circle cx="470" cy="200" r="190" fill="#ffffff" opacity=".06"/>
+  <g transform="translate(360 90) scale(2.2)" fill="#ffffff" opacity=".9"><rect x="32" y="20" width="36" height="76" rx="10"/><rect x="36" y="6" width="28" height="12" rx="4"/><path d="M68 40h10a6 6 0 0 1 6 6v16a6 6 0 0 1-6 6H68v-8h8V48h-8z"/><rect x="32" y="34" width="36" height="8" fill="#00000030"/></g>
+</svg>

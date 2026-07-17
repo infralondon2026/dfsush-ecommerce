@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Ultimate Ears Parlante Portátil Wonderboom 2">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d629c"/>
+      <stop offset="1" stop-color="#0e1122"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="300" cy="290" r="215" fill="#ffffff" opacity=".07"/>
+  <circle cx="300" cy="290" r="160" fill="#ffffff" opacity=".06"/>
+  <g transform="translate(165 155) scale(2.7)" fill="#ffffff" opacity=".94"><path d="M50 4a27 27 0 0 1 27 27v38a27 27 0 0 1-54 0V31A27 27 0 0 1 50 4z"/><circle cx="50" cy="62" r="15" fill="#00000030"/><circle cx="50" cy="30" r="8" fill="#00000030"/></g>
+  <text x="300" y="536" text-anchor="middle" font-family="'PT Sans', Arial, sans-serif" font-size="30" font-weight="bold" fill="#ffffff" opacity=".85" letter-spacing="4">ULTIMATE EARS</text>
+</svg>

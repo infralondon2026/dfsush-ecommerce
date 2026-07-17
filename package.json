@@ -1,0 +1,33 @@
+{
+  "name": "dfsas-tienda",
+  "private": true,
+  "version": "1.0.0",
+  "description": "DFSAS Tienda — e-commerce del Duty Free Shop Atlántico Sur (Ushuaia), London Supply Group",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config vite.spa.config.ts",
+    "build": "tsc --noEmit && vite build --config vite.spa.config.ts",
+    "preview": "vite preview --config vite.spa.config.ts",
+    "test": "vitest run --config vite.spa.config.ts",
+    "test:watch": "vitest --config vite.spa.config.ts",
+    "generate:catalog": "node scripts/generate-catalog.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.50.0",
+    "qrcode": "^1.5.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.5.2",
+    "jsdom": "^26.1.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.2.4"
+  }
+}

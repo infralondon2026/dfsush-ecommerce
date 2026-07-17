@@ -1,0 +1,28 @@
+# Dependencias y build
+node_modules/
+dist/
+coverage/
+
+# Variables de entorno: JAMÁS commitear secretos
+.env
+.env.*
+!.env.example
+
+# Documentos internos: no publicar en un repo público
+*.docx
+*.pdf
+*.xlsx
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+*.local
+.vscode/
+.idea/
+
+# Supabase CLI local
+supabase/.temp/
+supabase/.branches/
+
+# Configuración local de Claude Code
+.claude/settings.local.json

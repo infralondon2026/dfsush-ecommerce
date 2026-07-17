@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Logitech Teclado Inalámbrico K400 Plus">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d629c"/>
+      <stop offset="1" stop-color="#0e1122"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="300" cy="290" r="215" fill="#ffffff" opacity=".07"/>
+  <circle cx="300" cy="290" r="160" fill="#ffffff" opacity=".06"/>
+  <g transform="translate(165 155) scale(2.7)" fill="#ffffff" opacity=".94"><path d="M10 28h80a8 8 0 0 1 8 8v28a8 8 0 0 1-8 8H10a8 8 0 0 1-8-8V36a8 8 0 0 1 8-8z"/><g fill="#00000030"><rect x="12" y="38" width="10" height="8" rx="2"/><rect x="26" y="38" width="10" height="8" rx="2"/><rect x="40" y="38" width="10" height="8" rx="2"/><rect x="54" y="38" width="10" height="8" rx="2"/><rect x="68" y="38" width="10" height="8" rx="2"/><rect x="82" y="38" width="6" height="8" rx="2"/><rect x="24" y="52" width="46" height="10" rx="2"/></g></g>
+  <text x="300" y="536" text-anchor="middle" font-family="'PT Sans', Arial, sans-serif" font-size="30" font-weight="bold" fill="#ffffff" opacity=".85" letter-spacing="4">LOGITECH</text>
+</svg>

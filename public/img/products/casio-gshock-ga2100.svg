@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Casio G-Shock GA-2100">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#20666a"/>
+      <stop offset="1" stop-color="#081f21"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="300" cy="290" r="215" fill="#ffffff" opacity=".07"/>
+  <circle cx="300" cy="290" r="160" fill="#ffffff" opacity=".06"/>
+  <g transform="translate(165 155) scale(2.7)" fill="#ffffff" opacity=".94"><rect x="36" y="4" width="28" height="18" rx="4"/><rect x="36" y="78" width="28" height="18" rx="4"/><circle cx="50" cy="50" r="30"/><circle cx="50" cy="50" r="21" fill="#00000030"/><path d="M50 36v14l10 8" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round"/></g>
+  <text x="300" y="536" text-anchor="middle" font-family="'PT Sans', Arial, sans-serif" font-size="30" font-weight="bold" fill="#ffffff" opacity=".85" letter-spacing="4">CASIO</text>
+</svg>
